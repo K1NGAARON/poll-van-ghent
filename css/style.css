@@ -282,6 +282,14 @@ img {
     font-family: FontAwesome;
 }
 
+#error {
+    height: 80vh;
+}
+
+#error .row {
+    justify-content: center;
+}
+
 @media (max-width: 768px) {
     .section .row,
     .section .row.row-reverse {
