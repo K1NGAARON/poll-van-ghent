@@ -42,6 +42,7 @@ img {
 
 .section {
     display: flex;
+    margin: 40px 0;
 }
 
 .section .row {
@@ -200,6 +201,7 @@ img {
     z-index: 5;
     position: relative;
     overflow: hidden;
+    margin: 0;
 }
 
 #footer .col {
@@ -258,7 +260,6 @@ img {
 }
 
 #footer .row {
-    max-width: 1200px;
     align-items: center;
 }
 
