@@ -12,18 +12,55 @@
     <!-- Meta description -->
 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cookie-banner.css">
 
-    <!-- Favicon import if needed -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- GTM -->
     
 </head>
 <body>
 <!-- GTM -->
 
-<!-- Header -->
 <header>
-    
+    <div class="topnav" id="myTopnav">
+        <div class="topnav-content">
+            <div class="header-col">
+                <a href="#hero-section">
+                    <img class="header-logo" src="./IMG/logo.jpg" alt="Dr Linda De Witte Logo">
+                </a>
+            </div>
+            <div class="header-col">
+                <a href="over.html">Over</a>
+                <a href="behandelingen/overzicht.html">Behandelingen</a>
+                <a href="#gallery">Patiënten</a>
+            </div>
+            <div class="header-col">
+                <a class="primary-btn" href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="topnav-content-sm">
+            <div class="header-col">
+                <a href="#hero-section">
+                    <img class="header-logo" src="./IMG/logo.jpg" alt="Dr Linda De Witte Logo">
+                </a>
+            </div>
+            <div class="header-col">
+                <a href="javascript:void(0);" class="icon" id="menu-toggle">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div class="small-menu-wrapper">
+            <div class="small-menu-content">
+                <a href="over.html">Over</a>
+                <a href="behandelingen/overzicht.html">Behandelingen</a>
+                <a href="#gallery">Patiënten</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
 </header>
+
 
 <div class="section">
     <div class="row">
@@ -46,7 +83,7 @@
     </div>
 </div>
 
-<div class="section">
+<div class="section" id="about">
     <div class="row">
         <div class="col">
             <img src="./img/placeholder.jpg" alt="">
@@ -67,18 +104,51 @@
     </div>
 </div>
 
+<div class="section" id="dj">
+    <div class="row">
+        <span>
+            We will add the DJs here
+        </span>
+    </div>
+</div>
+
+<div class="section" id="gallery">
+    <div class="row gallery-wrapper">
+        <img src="./img/placeholder.jpg" alt="">
+        <img src="./img/placeholder.jpg" alt="">
+        <img src="./img/placeholder.jpg" alt="">
+        <img src="./img/placeholder.jpg" alt="">
+        <img src="./img/placeholder.jpg" alt="">
+        <img src="./img/placeholder.jpg" alt="">
+    </div>
+</div>
 
 
 
-
-
-
-
-
-
-<!-- Cookie banner -->
-<!-- Overlay -->
 <!-- Footer -->
+
+<!-- COOKIE BANNER -->
+<div class="cookie-banner-wrapper">
+    <div class="cookie-banner-content">
+        <h4>
+            Privacy and cookie policy
+        </h4>
+        <p>
+            By using this website you agree to our terms and conditions regarding <a href="cookies.html">cookies</a>.
+        </p>
+        <a id="more-info" href="cookies.html">
+            More info
+        </a>
+        <a id="accept-cookies">
+            I agree
+        </a>
+    </div>
+</div>
+
+<!-- COOKIE OVERLAY -->
+<div id="overlay"></div>
+
+
 
     
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
