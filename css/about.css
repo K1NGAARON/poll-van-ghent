@@ -1,0 +1,10 @@
+#about {
+    height: 75vh;
+}
+
+
+@media (max-width: 768px) {
+    #about {
+        height: fit-content;
+    }
+}
