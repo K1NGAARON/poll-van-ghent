@@ -181,11 +181,26 @@ img {
     width: 250px;
 }
 
+.small-menu-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.small-menu-content a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 700;
+    transition: var(--transition);
+}
+
+
 
 /* GALLERY */
 #gallery .gallery-wrapper {
     gap: 10px;
     flex-flow: row wrap;
+    padding: 0 30px;
 }
 
 #gallery .gallery-wrapper img {
