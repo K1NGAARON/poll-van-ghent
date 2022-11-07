@@ -56,6 +56,10 @@
     margin-top: 20px;
 }
 
+#dj .item-wrapper .item-content .primary-btn {
+    padding: 10px 15px;
+}
+
 #dj .item-wrapper:hover a,
 #dj .item-wrapper:hover p {
     display: block;
