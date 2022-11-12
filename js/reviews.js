@@ -26,7 +26,7 @@ const reviewsContent = [
 ];
 
 function createReviews(e) {
-    for (let i = 0; i <reviewsContent.length; i++) {
+    for (let i = 0; i < reviewsContent.length; i++) {
         const template = `
         <div class="item">
             <h2>
