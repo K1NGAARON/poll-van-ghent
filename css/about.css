@@ -3,6 +3,12 @@
 }
 
 
+@media (max-width: 650px) {
+    .section .row {
+        flex-direction: column-reverse;
+    }
+}
+
 @media (max-width: 768px) {
     #about {
         height: fit-content;
