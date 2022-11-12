@@ -1,0 +1,92 @@
+#reviews .row {
+    align-items: flex-start;
+}
+
+#reviews .row .col {
+    width: 60%;
+    flex: unset;
+}
+
+#reviews .row .sticky {
+    width: 40%;
+}
+
+#reviews .row .reviews .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#reviews .row .reviews .wrapper .item {
+    flex: 1;
+    max-width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: var(--light-grey);
+}
+
+#reviews .row .reviews .wrapper .item h2 {
+    font-size: 20px;
+}
+
+#reviews .row .reviews .wrapper .item .date {
+    margin-bottom: 10px;
+}
+
+#reviews .row .sticky .wrapper {
+    background-color: var(--blue);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+#reviews .row .sticky .wrapper h2,
+#reviews .row .sticky .wrapper p {
+    text-align: center;
+    color: var(--white);
+}
+
+#reviews .row .sticky .wrapper .primary-btn {
+    margin: 10px auto 0;
+    max-width: 100%;
+    justify-content: center;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+/* FORM */
+#reviews .row .sticky .form {
+    display: none;
+}
+
+#reviews .row .form .form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#reviews .row .sticky .form input {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 9px;
+    border: 1px solid var(--secondary);
+    font-size: 14px;
+    transition: var(--transition);
+}
+
+#reviews .row .sticky .form input:focus-visible {
+    border: 3px solid var(--black);
+    outline: none;
+    transition: var(--transition);
+}
+
+#reviews .row .sticky .form .primary-btn {
+    margin-top: 0;
+}
+
+#reviews .row .sticky #formToggle.hidden {
+    display: none;
+} 
