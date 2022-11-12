@@ -28,18 +28,18 @@ const reviewsContent = [
 function createReviews(e) {
     for (let i = 0; i < reviewsContent.length; i++) {
         const template = `
-        <div class="item">
-            <h2>
-                Naam: ${reviewsContent[i].name}
-            </h2>
-            <p class="date">
-                ${reviewsContent[i].date}
-            </p>
-            <p>
-                ${reviewsContent[i].message}
-            </p>
-        </div>
-        `;
+            <div class="item">
+                <h2>
+                    Naam: ${reviewsContent[i].name}
+                </h2>
+                <p class="date">
+                    ${reviewsContent[i].date}
+                </p>
+                <p>
+                    ${reviewsContent[i].message}
+                </p>
+            </div>
+            `;
         reviewsWrapper.insertAdjacentHTML("afterbegin", template);
     }
 };
