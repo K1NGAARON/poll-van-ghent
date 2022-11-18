@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+
+.wrapper img {
+    flex: 1;
+}
