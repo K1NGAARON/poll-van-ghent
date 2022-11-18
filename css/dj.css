@@ -50,6 +50,7 @@
     color: var(--white);
     display: none;
     margin: 0 auto;
+    padding: 10px;
 }
 
 #dj .item-wrapper .item-content a {
