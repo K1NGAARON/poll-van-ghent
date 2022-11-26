@@ -3,7 +3,7 @@
 :root {
     --primary: #702dbd;
     --secondary: #62b5e5;
-
+    --header-bg: #1b1a18;
     --purple: #702dbd;
     --blue: #62b5e5;
     --dark-grey: #98999b;
@@ -107,7 +107,7 @@ img {
 .topnav {
     width: 100%;
     position: sticky;
-    background-color: var(--black);
+    background-color: var(--header-bg);
     z-index: 9;
 }
 
@@ -178,11 +178,14 @@ img {
 }
 
 .topnav-content a.icon {
-    display: none; /* Hide on default */
+    display: none;
 }
 
-.topnav .header-logo {
-    width: 250px;
+.topnav .header-logo,
+#footer img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
 }
 
 .small-menu-content {
@@ -216,7 +219,7 @@ img {
 /* FOOTER */
 #footer {
     width: 100%;
-    background-color: var(--black);
+    background-color: var(--header-bg);
     z-index: 5;
     position: relative;
     overflow: hidden;
@@ -241,11 +244,6 @@ img {
 
 #footer .col:nth-child(3) {
     width: 20%;
-}
-
-#footer img {
-    width: 250px;
-    height: auto;
 }
 
 #footer ul,
