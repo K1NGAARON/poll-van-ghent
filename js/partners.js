@@ -331,22 +331,22 @@ function createPartners(e) {
     for (let i = 0; i < partners.length; i++) {
         const template = `
             <div class="item partner ${partners[i].category}">
-                <a href="${partners[i].url}">
+                <div class="overlay">
                     <img src="${partners[i].img}" alt="${partners[i].name}">
-                </a>
+                    <div class="service-content">
+                        <h3>
+                            ${partners[i].name}
+                        </h3>
+                        <a class="primary-btn" href="${partners[i].url}" target="_blank">
+                            Meer info
+                        </a>
+                    </div>
+                </div>
             </div>
-            `;
+        `;
         partnersWrapper.insertAdjacentHTML("afterbegin", template);
     }
 };
-
-
-
-/*
-
-    Add a hover effect that shows the name of the partner
-
-*/
 
 
 function hidePartners(e) {
