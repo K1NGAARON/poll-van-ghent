@@ -1,9 +1,36 @@
 .wrapper {
     display: flex;
     flex-flow: row wrap;
-    gap: 30px;
+    gap: 10px;
+}
+
+#partners h1 {
+    margin-bottom: 0;
+}
+
+#partners select {
+    margin: 20px 0;
+
+
+
+
+}
+
+.wrapper .item {
+    flex: 1 0 30%;
 }
 
 .wrapper img {
-    flex: 1;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+
+.wrapper .partner.hidden {
+    display: none;
+} 
+
+.wrapper .partner {
+    display: block;
 }

@@ -1,4 +1,4 @@
-const partnersWrapper = document.querySelector('#partners > .wrapper');
+const partnersWrapper = document.querySelector('#partners .wrapper');
 
 const partners = [
     {
@@ -22,7 +22,7 @@ const partners = [
     {
         'name' : 'Claeys & Duerinck',
         'category' : 'ceremonie',
-        'img' : '../img/partners/clayes.jpg',
+        'img' : '../img/partners/claeys.jpg',
         'url' : 'https://www.ceremonie-claeysduerinck.be/'
     },
     {
@@ -324,19 +324,63 @@ const partners = [
         'category' : 'location',
         'img' : '../img/partners/fabriekspand.jpg',
         'url' : 'https://www.fabriekspand.be/'
-    }
+    },
 ];
-
-
 
 function createPartners(e) {
     for (let i = 0; i < partners.length; i++) {
         const template = `
-
+            <div class="item partner ${partners[i].category}">
+                <a href="${partners[i].url}">
+                    <img src="${partners[i].img}" alt="${partners[i].name}">
+                </a>
+            </div>
+            
             `;
-            partnersWrapper.insertAdjacentHTML("afterbegin", template);
+        partnersWrapper.insertAdjacentHTML("afterbegin", template);
+    }
+};
+
+
+
+/*
+
+    Add a hover effect that shows the name of the partner
+
+*/
+
+
+function hidePartners(e) {
+    $('.partner').addClass('hidden');
+}
+
+
+function filterPartners(e) {
+    const activeSelection = document.querySelector('#filter').value;
+
+    hidePartners();
+
+    console.log(activeSelection);
+
+    if (activeSelection === 'bloemen') {
+        $('.bloemen').removeClass('hidden');
+    } else if (activeSelection === 'fotograaf') {
+        $('.fotograaf').removeClass('hidden');
+    } else if (activeSelection === 'video') {
+        $('.video').removeClass('hidden');
+    } else if (activeSelection === 'zang') {
+        $('.zang').removeClass('hidden');
+    } else if (activeSelection === 'ceremonie') {
+        $('.ceremonie').removeClass('hidden');
+    } else if (activeSelection === 'locaties') {
+        $('.location').removeClass('hidden');
+    } else if (activeSelection === 'catering') {
+        $('.catering').removeClass('hidden');
+    } else if (activeSelection === 'all') {
+        $('.partner').removeClass('hidden');
     }
 };
 
 
 $(document).ready(createPartners);
+$('#filter').change(filterPartners);
