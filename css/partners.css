@@ -11,6 +11,7 @@
 #partners select {
     margin: 20px 0;
     border: 2px solid var(--secondary);
+    outline: unset;
     border-radius: 12px;
     padding: 10px 15px;
 }
