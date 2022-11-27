@@ -158,70 +158,172 @@ const partners = [
         'url' : 'https://vanwonterghemcatering.be/'
     },
     {
-        'name' : '',
-        'category' : '',
-        'img' : '../img/partners/',
-        'url' : ''
+        'name' : 'Traiteur Leconte',
+        'category' : 'catering',
+        'img' : '../img/partners/leconte.jpg',
+        'url' : 'https://www.traiteur-leconte.com/nl/'
     },
     {
-        'name' : '',
-        'category' : '',
-        'img' : '../img/partners/',
-        'url' : ''
+        'name' : 'Ma Kwizien',
+        'category' : 'catering',
+        'img' : '../img/partners/makwizien.jpg',
+        'url' : 'https://www.makwizien.be/'
     },
     {
-        'name' : '',
-        'category' : '',
-        'img' : '../img/partners/',
-        'url' : ''
+        'name' : 'Feestzaal Celles',
+        'category' : 'location',
+        'img' : '../img/partners/celles.jpg',
+        'url' : 'https://lesaulchoir.be/nl/'
     },
     {
-        'name' : '',
-        'category' : '',
-        'img' : '../img/partners/',
-        'url' : ''
+        'name' : 'Van Wonterghem',
+        'category' : 'location',
+        'img' : '../img/partners/van-wonterghem.jpg',
+        'url' : 'https://vanwonterghem.be/'
     },
     {
-        'name' : '',
-        'category' : '',
-        'img' : '../img/partners/',
-        'url' : ''
+        'name' : 'De Steenovenhoeve',
+        'category' : 'loction',
+        'img' : '../img/partners/steenovenhoeve.jpg',
+        'url' : 'http://www.steenovenhoeve.be/'
     },
     {
-        'name' : '',
-        'category' : '',
-        'img' : '../img/partners/',
-        'url' : ''
+        'name' : 'Salons Saintgermain',
+        'category' : 'location',
+        'img' : '../img/partners/salons.jpg',
+        'url' : 'https://www.salonssaintgermain.be/nl'
     },
     {
-        'name' : '',
-        'category' : '',
-        'img' : '../img/partners/',
-        'url' : ''
+        'name' : 'Salons Cortina',
+        'category' : 'location',
+        'img' : '../img/partners/cortina.jpg',
+        'url' : 'https://www.salonscortina.be/'
     },
     {
-        'name' : '',
-        'category' : '',
-        'img' : '../img/partners/',
-        'url' : ''
+        'name' : 'Alta Ripa',
+        'category' : 'location',
+        'img' : '../img/partners/alta.jpg',
+        'url' : 'https://www.alta-ripa.be/'
     },
     {
-        'name' : '',
-        'category' : '',
-        'img' : '../img/partners/',
-        'url' : ''
+        'name' : 'La Renaissance',
+        'category' : 'location',
+        'img' : '../img/partners/renaissance.jpg',
+        'url' : 'https://www.larenaissance.be/nl'
     },
     {
-        'name' : '',
-        'category' : '',
-        'img' : '../img/partners/',
-        'url' : ''
+        'name' : 'Hove Van Herpelgem',
+        'category' : 'location',
+        'img' : '../img/partners/vanherpelgem.jpg',
+        'url' : 'http://www.hovevanherpelgem.com/'
     },
     {
-        'name' : '',
-        'category' : '',
-        'img' : '../img/partners/',
-        'url' : ''
+        'name' : 'Domein Vossenberg',
+        'category' : 'location',
+        'img' : '../img/partners/vossenberg.jpg',
+        'url' : 'https://www.vossenberg.be/'
+    },
+    {
+        'name' : 'Blommerie',
+        'category' : 'location',
+        'img' : '../img/partners/blommerie.jpg',
+        'url' : 'https://www.blommerie.com/nl'
+    },
+    {
+        'name' : 'Bierkasteel',
+        'category' : 'location',
+        'img' : '../img/partners/bierkasteel.jpg',
+        'url' : 'https://www.vanhonsebrouck.be/bezoek/bierkasteel/'
+    },
+    {
+        'name' : 'Hof Ter Molen',
+        'category' : 'location',
+        'img' : '../img/partners/termolen.jpg',
+        'url' : 'https://www.termolen.be/'
+    },
+    {
+        'name' : 'Cleen Schardauw',
+        'category' : 'location',
+        'img' : '../img/partners/cleen.jpg',
+        'url' : 'https://cleenschardauw.be/'
+    },
+    {
+        'name' : 'Eccellenza',
+        'category' : 'location',
+        'img' : '../img/partners/eccellenza.jpg',
+        'url' : 'https://eccellenza.be/'
+    },
+    {
+        'name' : 'Domein Carlton',
+        'category' : 'location',
+        'img' : '../img/partners/carlton.jpg',
+        'url' : 'https://www.domeincarlton.be/'
+    },
+    {
+        'name' : 'Hof Ter Heulebeke',
+        'category' : 'location',
+        'img' : '../img/partners/chez-koen.jpg',
+        'url' : 'https://www.chezkoen.be/hof-ter-heulebeke-feestzalen/'
+    },
+    {
+        'name' : 'Ter Eeste',
+        'category' : 'location',
+        'img' : '../img/partners/tereeste.jpg',
+        'url' : 'https://www.tereeste.be/'
+    },
+    {
+        'name' : 'Kasteel Te Lake',
+        'category' : 'location',
+        'img' : '../img/partners/kasteel.jpg',
+        'url' : 'http://www.kasteeltelake.be/nl'
+    },
+    {
+        'name' : 'Salons De Lelie',
+        'category' : 'location',
+        'img' : '../img/partners/salons-lelie.jpg',
+        'url' : 'https://www.salonsdelelie.be/nl'
+    },
+    {
+        'name' : 'Kasteel Van Moerkerke',
+        'category' : 'location',
+        'img' : '../img/partners/vanmoerkerke.jpg',
+        'url' : 'https://kasteelvanmoerkerke.be/'
+    },
+    {
+        'name' : 'Denotter',
+        'category' : 'location',
+        'img' : '../img/partners/denotter.jpg',
+        'url' : 'https://denotter.be/'
+    },
+    {
+        'name' : 'Shamrock',
+        'category' : 'location',
+        'img' : '../img/partners/shamrock.jpg',
+        'url' : 'https://www.shamrock.be/nl'
+    },
+    {
+        'name' : 'Salons De Vrede',
+        'category' : 'location',
+        'img' : '../img/partners/salonsdevrede.jpg',
+        'url' : 'https://www.salonsdevrede.be/'
+    },
+    {
+        'name' : 'Salons Leieburcht',
+        'category' : 'location',
+        'img' : '../img/partners/leieburcht.jpg',
+        'url' : 'https://www.leieburcht.be/nl'
+    },
+    {
+        'name' : 'Ter Biest',
+        'category' : 'location',
+        'img' : '../img/partners/terbiest.jpg',
+        'url' : 'https://www.terbiest.be/'
+    },
+    {
+        'name' : 'Fabriekspand',
+        'category' : 'location',
+        'img' : '../img/partners/fabriekspand.jpg',
+        'url' : 'https://www.fabriekspand.be/'
     }
 ];
 
