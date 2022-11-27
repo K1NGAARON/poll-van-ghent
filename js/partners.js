@@ -325,6 +325,12 @@ const partners = [
         'img' : './img/partners/fabriekspand.jpg',
         'url' : 'https://www.fabriekspand.be/'
     },
+    {
+        'name' : 'EMW Verhuur',
+        'category' : 'renting',
+        'img' : './img/partners/emw.jpg',
+        'url' : 'https://www.emwverhuur.be/'
+    }
 ];
 
 function createPartners(e) {
@@ -375,6 +381,8 @@ function filterPartners(e) {
         $('.catering').removeClass('hidden');
     } else if (activeSelection === 'all') {
         $('.partner').removeClass('hidden');
+    } else if (activeSelection === 'verhuur') {
+        $('.renting').removeClass('hidden')
     }
 };
 
