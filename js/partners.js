@@ -335,7 +335,6 @@ function createPartners(e) {
                     <img src="${partners[i].img}" alt="${partners[i].name}">
                 </a>
             </div>
-            
             `;
         partnersWrapper.insertAdjacentHTML("afterbegin", template);
     }
@@ -359,8 +358,6 @@ function filterPartners(e) {
     const activeSelection = document.querySelector('#filter').value;
 
     hidePartners();
-
-    console.log(activeSelection);
 
     if (activeSelection === 'bloemen') {
         $('.bloemen').removeClass('hidden');
