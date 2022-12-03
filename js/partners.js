@@ -247,12 +247,12 @@ const partners = [
         'img' : './img/partners/cleen.jpg',
         'url' : 'https://cleenschardauw.be/'
     },
-    {
-        'name' : 'Eccellenza',
-        'category' : 'location',
-        'img' : './img/partners/eccellenza.jpg',
-        'url' : 'https://eccellenza.be/'
-    },
+    // {
+    //     'name' : 'Eccellenza',
+    //     'category' : 'location',
+    //     'img' : './img/partners/eccellenza.jpg',
+    //     'url' : 'https://eccellenza.be/'
+    // },
     {
         'name' : 'Domein Carlton',
         'category' : 'location',
