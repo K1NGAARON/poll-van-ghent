@@ -22,7 +22,7 @@ const artists = [
     },
     {
         'img' : '../img/dj/madgid.jpg',
-        'name' : 'DJ Sweeby',
+        'name' : 'DJ Magdid',
         'style' : 'Huwelijken',
         'about' : 'Mensen animeren en laten dansen zijn nu eenmaal 2 zaken waar ik oprecht gelukkig van word. Een muzikale brunch op zondag, een huwelijksfeest, een jubileum, verjaardagsfeesten en zelfs een foute party. Je kan het zo gek niet bedenken. Als  we de mensen maar gelukkig kunnen maken.',
     }
