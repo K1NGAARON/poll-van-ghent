@@ -2,7 +2,7 @@ const toggleFormBtn = document.querySelector('#formToggle');
 
 function toggleForm(e) {
     $('#formToggle').toggle('hidden');
-    $('#hiddenForm').toggle('active');
+    $('.hiddenForm').toggle('active');
 };
 
 const reviewsWrapper = document.querySelector('.reviews > .wrapper');
