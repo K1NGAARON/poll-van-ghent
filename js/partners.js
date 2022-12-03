@@ -116,7 +116,7 @@ const partners = [
         'url' : 'https://www.daviddeman.be/'
     },
     {
-        'name' : 'Kevin Dandenberghe',
+        'name' : 'Kevin Vandenberghe',
         'category' : 'fotograaf',
         'img' : './img/partners/kevin.jpg',
         'url' : 'https://www.kevin-v.com/'
