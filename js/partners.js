@@ -170,7 +170,7 @@ const partners = [
         'url' : 'https://www.makwizien.be/'
     },
     {
-        'name' : 'Feestzaal Celles',
+        'name' : 'Le Saulchoir',
         'category' : 'location',
         'img' : './img/partners/chat.jpg',
         'url' : 'https://lesaulchoir.be/nl/'
