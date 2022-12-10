@@ -16,13 +16,13 @@ const partners = [
     {
         'name' : 'Ceremonie Devolder',
         'category' : 'ceremonie',
-        'img' : './img/partners/ceremonie-devolder.jpg',
+        'img' : './img/partners/devold.jpg',
         'url' : 'http://ceremonie-devolder.be/'
     },
     {
         'name' : 'Claeys & Duerinck',
         'category' : 'ceremonie',
-        'img' : './img/partners/claeys.jpg',
+        'img' : './img/partners/claeeyz.jpg',
         'url' : 'https://www.ceremonie-claeysduerinck.be/'
     },
     {
@@ -40,7 +40,7 @@ const partners = [
     {
         'name' : 'Ceremoniekledij Vanwynsberghe',
         'category' : 'kledij',
-        'img' : './img/partners/kleding.jpg',
+        'img' : './img/partners/kleij.jpg',
         'url' : 'https://www.ceremoniekledijvanwynsberghe.be/'
     },
     {
@@ -64,7 +64,7 @@ const partners = [
     {
         'name' : 'Alex Vdb',
         'category' : 'fotograaf',
-        'img' : './img/partners/alex-vdb.jpg',
+        'img' : './img/partners/alexvdb.jpg',
         'url' : 'https://www.alexvdb.be/'
     },
     {
@@ -76,7 +76,7 @@ const partners = [
     {
         'name' : 'Annelies',
         'category' : 'fotograaf',
-        'img' : './img/partners/annelies.jpg',
+        'img' : './img/partners/anneliesp.png',
         'url' : 'https://annelies.photos/'
     },
     {
@@ -106,7 +106,7 @@ const partners = [
     {
         'name' : 'Andy Hauman',
         'category' : 'fotograaf',
-        'img' : './img/partners/andy.jpg',
+        'img' : './img/partners/andyh.jpg',
         'url' : 'https://www.fotografie-hauman.be/'
     },
     {
@@ -166,7 +166,7 @@ const partners = [
     {
         'name' : 'Ma Kwizien',
         'category' : 'catering',
-        'img' : './img/partners/makwizien.jpg',
+        'img' : './img/partners/mak.jpg',
         'url' : 'https://www.makwizien.be/'
     },
     {
