@@ -148,7 +148,7 @@ const partners = [
     {
         'name' : 'RVD Videografie',
         'category' : 'video',
-        'img' : './img/partners/rvd.jpg',
+        'img' : './img/partners/rvd.png',
         'url' : 'http://rvdvideografie.be/'
     },
     {
@@ -247,12 +247,6 @@ const partners = [
         'img' : './img/partners/cleen.jpg',
         'url' : 'https://cleenschardauw.be/'
     },
-    // {
-    //     'name' : 'Eccellenza',
-    //     'category' : 'location',
-    //     'img' : './img/partners/eccellenza.jpg',
-    //     'url' : 'https://eccellenza.be/'
-    // },
     {
         'name' : 'Domein Carlton',
         'category' : 'location',
@@ -280,7 +274,7 @@ const partners = [
     {
         'name' : 'Salons De Lelie',
         'category' : 'location',
-        'img' : './img/partners/salons-lelie.jpg',
+        'img' : './img/partners/salons-lelie.png',
         'url' : 'https://www.salonsdelelie.be/nl'
     },
     {
