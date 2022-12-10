@@ -10,7 +10,7 @@ const partners = [
     {
         'name' : 'De Flitspaal',
         'category' : 'flitspaal',
-        'img' : './img/partners/flitspaal.jpg',
+        'img' : './img/partners/flitspl.jpg',
         'url' : 'https://deflitspaal.be/'
     },
     {
@@ -28,7 +28,7 @@ const partners = [
     {
         'name' : 'Danny David',
         'category' : 'ceremonie',
-        'img' : './img/partners/danny-david.jpg',
+        'img' : './img/partners/dannyd.jpg',
         'url' : 'https://dannydavid.be/ceremoniemeester/'
     },
     {
@@ -58,7 +58,7 @@ const partners = [
     {
         'name' : 'Chelsy',
         'category' : 'zang',
-        'img' : './img/partners/chelsy.jpg',
+        'img' : './img/partners/chelsyh.jpg',
         'url' : 'https://www.chelsy.be/'
     },
     {
@@ -100,7 +100,7 @@ const partners = [
     {
         'name' : 'Dm Fotografie',
         'category' : 'fotograaf',
-        'img' : './img/partners/dm.jpg',
+        'img' : './img/partners/dmf.jpg',
         'url' : 'https://www.dmfotografie.be/'
     },
     {
@@ -112,7 +112,7 @@ const partners = [
     {
         'name' : 'David Deman',
         'category' : 'fotograaf',
-        'img' : './img/partners/david.jpg',
+        'img' : './img/partners/daviddeman.jpg',
         'url' : 'https://www.daviddeman.be/'
     },
     {
@@ -172,7 +172,7 @@ const partners = [
     {
         'name' : 'Feestzaal Celles',
         'category' : 'location',
-        'img' : './img/partners/celles.jpg',
+        'img' : './img/partners/chat.jpg',
         'url' : 'https://lesaulchoir.be/nl/'
     },
     {
