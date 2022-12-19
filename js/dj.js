@@ -9,16 +9,16 @@ const artists = [
         about : 'Huwelijken vooral voor 30 plussers, privé feesten, jubileums, diner dances. All round dj met veel aandacht voor de sfeer opp de dansvloer. Tweetalig. Muziekvoorkeuren: disco, jaren 70, 80 en 90. Rock en Retro house. Goed dansbare commerciële nummers. 50 jaar dj.',
     },
     {
-        img : './img/dj/nicolas.jpg',
-        name : 'DJ Nicolas',
-        style : 'Huwelijken',
-        about : 'Perfect tweetalig, verzorgt ook Franstalige feesten. All round dj. 15 jaar actief als allround disc-jockey.',
-    },
-    {
         img : './img/dj/sweeby.jpg',
         name : 'DJ Sweeby',
         style : 'Allround',
         about : 'Ik ben al 25 jaar actief als allround Disc-jockey. Mijn doel is dan ook om van iedere gelegenheid, hoe klein of groot dan ook, een passend feest te maken! Daarbij is de interactie tussen het publiek en voor mij als dj erg belangrijk. De mensen en muziek wensen goed aan te voelen, hierop in te spelen met eigentijdse muziek, zodat elke feestgelegenheid gegarandeerd slaagt!',
+    },
+    {
+        img : './img/dj/nicolas.jpg',
+        name : 'DJ Nicolas',
+        style : 'Huwelijken',
+        about : 'Perfect tweetalig, verzorgt ook Franstalige feesten. All round dj. 15 jaar actief als allround disc-jockey.',
     },
     {
         img : './img/dj/madgid.jpg',
