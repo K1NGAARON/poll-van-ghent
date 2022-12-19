@@ -42,7 +42,7 @@ function createArtists() {
                         <p>
                             ${artists[i].about}
                         </p>
-                        <a class="primary-btn" href="/contact">
+                        <a class="primary-btn" href="/contact.html">
                             Meer info
                         </a>
                     </div>
