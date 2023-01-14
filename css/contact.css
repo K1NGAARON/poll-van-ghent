@@ -37,6 +37,11 @@
     background-color: var(--secondary);
 }
 
+.contact-form-wrapper .wrapper {
+    display: flex;
+    gap: 5px;
+}
+
 @media (max-width: 650px) {
     .contact-form-wrapper {
         padding: 0;
