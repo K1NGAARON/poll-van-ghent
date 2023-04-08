@@ -57,6 +57,11 @@ const reviewsContent = [
         name: 'Matthijs & Lien',
         date: '26 07 2022',
         message: "Dag DJ SWEEBY, We hadden je uitgekozen obv een trouwfeest van een collega, 3 jaar geleden. Een DJ kiezen blijft uiteindelijk altijd wel een beetje een gok, maar jij kon van begin tot einde onze gasten op de dansvloer krijgen en houden. De muziekstijl was een perfecte mix tussen modern, jaren 80 - 90, en de klassiekers waardoor jong en oud zich te pletter amuseerden! We konden in onze wildste dromen zo'n mooie trouw niet voorzien hebben, bedankt!",
+    },
+    {
+        name: 'Dominique',
+        date: '08 04 2023',
+        message: "Dag Pol Nog eens een ferme Mercie voor het fantastisch feest dat je ons gegeven hebt .Zoals gewoonlijk was je weer top .DANK U Wel .gr Anneke en Dominique"
     }
 ];
 
@@ -67,9 +72,6 @@ function createReviews(e) {
                 <h2>
                     Naam: ${reviewsContent[i].name}
                 </h2>
-                <p class="date">
-                    ${reviewsContent[i].date}
-                </p>
                 <p>
                     ${reviewsContent[i].message}
                 </p>
