@@ -62,6 +62,11 @@ const reviewsContent = [
         name: 'Dominique',
         date: '08 04 2023',
         message: "Dag Pol Nog eens een ferme Mercie voor het fantastisch feest dat je ons gegeven hebt .Zoals gewoonlijk was je weer top .DANK U Wel .gr Anneke en Dominique"
+    },
+    {
+        name: "Sofie & Kurt",
+        date: "28 04 2023",
+        message: "We willen u graag nog eens bedanken om van onze speciale dag zo een mooi feest te maken! Het kon echt niet beter zijn!Iedereen was super onder de indruk van u zangtalent ook. Bedankt voor de foto's :)"
     }
 ];
 
