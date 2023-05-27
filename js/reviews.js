@@ -67,7 +67,12 @@ const reviewsContent = [
         name: "Sofie & Kurt",
         date: "28 04 2023",
         message: "We willen u graag nog eens bedanken om van onze speciale dag zo een mooi feest te maken! Het kon echt niet beter zijn!Iedereen was super onder de indruk van u zangtalent ook. Bedankt voor de foto's :)"
-    }
+    },
+    {
+        name: "Lorijn & Kimley",
+        date: "",
+        message: "Beste Poll Bedankt voor de leuke sfeer fotos van ons trouwfeest :).  Het was zeer tof om iedereen te zien genieten We hebben al veel positieve reacties gehad van aanwezigen. Zowel wij als iedereen die aanwezig was hebben vooral ook genoten van het enthousiasme waarmee je ons feest hebt verzorgd Bedankt om ons feest te voorzien van de nodige sfeer e ambiance",
+    },
 ];
 
 function createReviews(e) {
